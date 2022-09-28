@@ -1,6 +1,6 @@
 # Welcome to Python ETL with the [PETL library](https://petl.readthedocs.io/)
 
-Python ETL using  [PETL](https://petl.readthedocs.io/)  to load a bunch of CSV files to a MSSQL DB. Update the config.ini file with the desired user and path variables. I am using PETL for the CSV file upload. 
+Python ETL using [PETL](https://petl.readthedocs.io/)  to load a bunch of CSV files to a MSSQL DB. Update the config.ini file with the desired user and path variables. I am using PETL for the CSV file upload. Run the **ETLPETL.py** file. I was experimenting with converting the CSVs to json and also using Pandas however found the PETL method faster and needed less coding.
 
 ## Points to Note
 The PETL library does not do an accurate job of sizing the database table fields. All the fields will be of varchar thus you will need to review the table and update the table fields data types as desired. 
