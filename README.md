@@ -1,4 +1,4 @@
-# Welcome to Python ETL with the PETL library
+# Welcome to Python ETL with the [PETL library](https://petl.readthedocs.io/)
 
 Python ETL using  [PETL](https://petl.readthedocs.io/)  to load a bunch of CSV files to a MSSQL DB. Update the config.ini file with the desired user and path variables. I am using PETL for the CSV file upload. 
 
